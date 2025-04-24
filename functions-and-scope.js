@@ -63,7 +63,8 @@ function gemiddelde(cijfers){
     for (let i = 0; i < cijfers.length; i++) {
         opslag = opslag + cijfers[i];
     }
-    return opslag/cijfers.length;
+    let numGemiddelde = opslag/cijfers.length;
+    return numGemiddelde.toFixed(2);
 }
 console.log(gemiddelde(grades));
 /* 2b: Omschrijven tot een herbruikbare functie */
@@ -76,11 +77,13 @@ console.log(gemiddelde(grades));
 // averageGrade([6, 4, 5]) geeft 5
 // averageGrade([8, 9, 4, 6, 10]) geeft 7.4
 
+//Zie 2a
 
 /* 2c: Afronden op twee decimalen */
 // Zorg ervoor dat het gemiddelde cijfer dat wordt teruggegeven uit de functie netjes wordt afgerond op twee decimalen.
 // Tip: Google is your best friend!
 
+//Zie 2a
 
 /* Bonusopdracht: hoogste cijfer */
 
